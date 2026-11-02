@@ -31,7 +31,7 @@ jobs:
 
       - name: Install dependencies
         working-directory: src
-        run: npm install --no-audit --no-fund
+        run: npm install --no-audit --no-fund --legacy-peer-deps
 
       - name: Build web app
         working-directory: src
